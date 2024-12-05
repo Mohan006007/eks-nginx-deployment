@@ -32,7 +32,7 @@ eksctl create cluster --name my-cluster --region ap-south-1 --nodegroup-name sta
 After creating the EKS cluster, configure kubectl to use it:
 
 ```bash
-aws eks --region us-west-2 update-kubeconfig --name my-cluster
+aws eks --region ap-south-1 update-kubeconfig --name my-cluster
 ```
 ### 3. **Deploy NGINX**
 
