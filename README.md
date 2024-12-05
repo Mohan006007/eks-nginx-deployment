@@ -25,7 +25,7 @@ This repository demonstrates deploying an NGINX application on **AWS EKS** using
 Run the following command to create an EKS cluster:
 
 ```bash
-eksctl create cluster --name my-cluster --region us-west-2 --nodegroup-name standard-workers --node-type t2.medium --nodes 3 --managed
+eksctl create cluster --name my-cluster --region ap-south-1 --nodegroup-name standard-workers --node-type t2.medium --nodes 3 --managed
 ```
 ### 2. **Configure kubectl**
 
